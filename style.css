@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    padding: 20px;
+    border: 3px solid red;
+    background-color: aqua;
+    /*  navbar decliration   */
+    .home{
+        justify-content: space-evenly;
+        display: flex;
+        border: 3px solid red;
+        background-color: rgb(7, 45, 45);
+    }
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
+#products > div{
+    box-shadow: rgba(0, 0,0,0.16 )0px 1px 4px;
+    padding: 8px;
+}
+
